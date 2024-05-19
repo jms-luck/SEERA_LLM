@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, jsonify
 app = Flask(__name__)
 
 # Your Groq API key
-API_KEY = "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"
+API_KEY = "API_Key"
 
 # Function to call the Groq API
 def call_groq_api(api_key, chat_history):
