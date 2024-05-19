@@ -3,9 +3,9 @@ import os
 from groq import Groq
 
 client = Groq(
-    api_key="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",
+    api_key="Unique_api_key",
 )
-inpt=input("Enter api key:")
+inpt=input("Enter Your search:")
 chat_completion = client.chat.completions.create(
     messages=[
         {
